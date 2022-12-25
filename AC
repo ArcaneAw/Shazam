@@ -157,5 +157,11 @@ function Fly()
                         end)
                     end
                 end
-                game.Players.LocalPlayer.Character:WaitForChild("FULLY_LOADED_CHAR")
-                Fly()
+game:GetService('Players').LocalPlayer.Character:WaitForChild('FULLY_LOADED_CHAR');
+wait(1);
+Fly();
+game:GetService('Players').LocalPlayer.CharacterAdded:Connect(function(v)
+    v:WaitForChild('FULLY_LOADED_CHAR');
+    wait(1);
+    Fly();
+end)
