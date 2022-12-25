@@ -24,7 +24,7 @@ function Fly()
                     Animation6 = Instance.new("Animation")
                     Tool0.Name = "ModFly"
                     Tool0.ToolTip = "Modfly"
-                    Tool0.TextureId = "rbxassetid://5411452739"
+                    Tool0.TextureId = "rbxassetid://8763582733"
                     Tool0.Parent = mas
                     Tool0.CanBeDropped = false
                     Tool0.RequiresHandle = false
