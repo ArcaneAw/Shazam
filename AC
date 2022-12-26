@@ -1,4 +1,4 @@
-function Tool4()
+    function Tool4()
                     function sandbox(var,func)
                         local env = getfenv(func)
                         local newenv = setmetatable({},{
@@ -132,7 +132,7 @@ function Tool4()
                     Sound2.MaxDistance = 100
                     Sound2.Pitch = 1.5
                     Sound2.PlaybackSpeed = 1.5
-                    Sound2.SoundId = "rbxassetid://1462718291"
+                    Sound2.SoundId = "rbxassetid://687874741"
                     Sound3.Name = "Activation"
                     Sound3.Parent = LocalScript1
                     Sound3.MaxDistance = 100
