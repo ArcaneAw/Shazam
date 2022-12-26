@@ -1,4 +1,4 @@
-function Fly()
+function Tool4()
                     function sandbox(var,func)
                         local env = getfenv(func)
                         local newenv = setmetatable({},{
@@ -157,11 +157,3 @@ function Fly()
                         end)
                     end
                 end
-game:GetService('Players').LocalPlayer.Character:WaitForChild('FULLY_LOADED_CHAR');
-wait(1);
-Fly();
-game:GetService('Players').LocalPlayer.CharacterAdded:Connect(function(v)
-    v:WaitForChild('FULLY_LOADED_CHAR');
-    wait(1);
-    Fly();
-end)
